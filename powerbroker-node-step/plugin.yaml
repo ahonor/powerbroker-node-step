@@ -5,7 +5,7 @@ date: 11/05/2015
 version: 1.0
 providers:
     - name: pbrun-step
-      service: NodeExecutor
+      service: WorkflowNodeStep
       title: pbrun-step
       description: Executes the command via ssh to the remote node and executs command using pbrun.
       plugin-type: script
