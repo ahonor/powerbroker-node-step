@@ -27,7 +27,7 @@ providers:
           title: SSH key Storage Path
           type: String
           required: false
-          description: "Optional storage path for ssh-key file. Can contain property references to node attributes. A node attribute named ssh-key-storage-path will override this value."
+          description: "Storage path for ssh-key file. Can contain property references to node attributes. A node attribute named ssh-key-storage-path will override this value."
           scope: Instance
           renderingOptions:
             selectionAccessor: "STORAGE_PATH"
