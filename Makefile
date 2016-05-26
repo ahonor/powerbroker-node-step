@@ -1,5 +1,5 @@
 # makefile
-pluginname=powerbroker-node-step
+pluginname=cisco-node-step
 pluginfile=$(pluginname).zip
 FILES=$(shell find $(pluginname))
 
